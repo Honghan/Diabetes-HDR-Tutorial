@@ -1,0 +1,21 @@
+version: "3"
+services:
+  jupyter:
+    container_name: jupyter_container
+    image: jupyter/datascience-notebook
+    ports:
+     - "8899:8888"
+    volumes:
+     - /home/${USER}/notebooks:/home/jovyan/work
+
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    restart: always
+    ports:
+     - "5434:5432"
+    environment:
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=tutorial
+    volumes:
+     - /home/${USER}/tutorial_data:/var/lib/postgresql/data/
