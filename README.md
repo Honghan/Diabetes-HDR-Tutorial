@@ -33,6 +33,7 @@ In order to get the environment you need for this tutorial, please download and 
 
 `    volumes:
      - /home/${USER}/notebooks:/home/jovyan/work`
+
 `    volumes:
      - /home/${USER}/tutorial_data:/var/lib/postgresql/data/`
 
