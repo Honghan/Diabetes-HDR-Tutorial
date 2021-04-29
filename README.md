@@ -7,11 +7,18 @@
 - R tutorial
 
 ## Environment setup
-..* Download the zip file from this Github repository
+### Download the zip file from this Github repository
 This repository includes
 - summary.docx
 - docker-compose.yml
 - r-files
+- tutorial_data.tar.gz
+- raw_data.zip
+
+### Install Docker
+<https://docs.docker.com/get-docker/>
+
+### Run docker-compose file
 
 
 
