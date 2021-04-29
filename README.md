@@ -6,6 +6,16 @@
 - phenotype computation
 - R tutorial
 
+## Environment setup
+..* Download the zip file from this Github repository
+This repository includes
+- summary.docx
+- docker-compose.yml
+- r-files
+
+
+
+
 ## TODO
 - [ ] (HW) installation of postgresql server on AWS EC2; give MW AWS EC2 access
 - [ ] (MW) installation of pgAdmin 
