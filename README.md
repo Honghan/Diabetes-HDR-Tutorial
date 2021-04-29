@@ -18,9 +18,17 @@ This repository includes
 ### Install Docker
 <https://docs.docker.com/get-docker/>
 
+### Unzip the data file, change the directory
+tutorial_data.tar.gz
+
 ### Run docker-compose file
+docker-compose.yml
 
+### Optional: pgadmin for checking the database
 
+### Jupyter notebook for R
+
+### Optional: Rstudio for R
 
 
 ## TODO
