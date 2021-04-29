@@ -30,16 +30,20 @@ In order to get the environment you need for this tutorial, please download and 
 - Pull the image for Jupyter by run: `docker pull jupyter/data-science` (It might take a while)
 - Pull the image for Postgres by run: `docker pull postgres`
 - Edit the path in file *docker-compose.yml*
+
 `    volumes:
      - /home/${USER}/notebooks:/home/jovyan/work`
 `    volumes:
      - /home/${USER}/tutorial_data:/var/lib/postgresql/data/`
+
 Change the path before the colon to your working directory.
 - Run the compose file by:
+
 `docker-compose -f docker-compose.yml up`
 - Open the browser and open `http://localhost:8899`. Copy the token from the terminal. Then you should be able to open the jupyter notebooks in the folder *notebooks*.
 Now you should be able to go through the R files by running each code cell.
 - To close the containers and remove the network, stop the compose by:
+
 `docker-compose -f docker-compose.yml down`
 
 ### Optional: pgadmin for checking the database
