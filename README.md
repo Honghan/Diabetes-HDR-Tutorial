@@ -42,10 +42,25 @@ Change the path before the colon to your working directory.
 
 `docker-compose -f docker-compose.yml up`
 - Open the browser and open `http://localhost:8899`. Copy the token from the terminal. Then you should be able to open the jupyter notebooks in the folder *notebooks*.
-Now you should be able to go through the R files by running each code cell.
+Now you should be able to go through the R files by running each code cell. *Please note you need to install the packages before loading them.*
 - To close the containers and remove the network, stop the compose by:
 
 `docker-compose -f docker-compose.yml down`
+
+### Optional: don't wanna install those R packages everytime?
+You can save a Docker image after installing the packages by:
+
+`docker commit CONTAINER IMAGE:TAG`
+
+Edit Container, image, and tag.
+
+You can check the running Docker containers by
+
+`docker ps`
+
+You can list the Docker images by
+
+`docker images`
 
 ### Optional: pgadmin for checking the database
 You can download *PGAdmin* to have a look of the database from [here](https://www.pgadmin.org/download/). After installing, you can create a new server by this setting (make sure you run the docker-compose file first):
