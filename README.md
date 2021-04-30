@@ -11,7 +11,7 @@ In this tutorial, you will learn the basics of OMOP Common Data Model and multip
 
 ## Environment setup
 ### Download the zip file from this Github repository
-Please download all files from this repository and save them under C:\Users\your_account_name. **I'm not very sure it will work without editing the path in compose file? It didn't work for me, but I'm using the university laptop so it might be different? Delete this later**
+Please download all files from this repository and save them (e.g. C:\Users\your_account_name).
 This repository includes
 - **summary.docx** provides a brief summary and background information of this tutorial. *Please go through this document before the tutorial.*
 - **docker-compose.yml** is the docker compose file you need for setting up the environment. Further instructions will be provided below.
