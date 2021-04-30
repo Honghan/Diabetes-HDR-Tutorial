@@ -1,12 +1,12 @@
-# Diabetes-HDR-Tutorial
-This repository includes all the materials you need for a hands-on Common Data Model tutorial. 
+# Health Data Research Tutorial - a case study in Diabetes
+This repository includes all the materials you need for a hands-on [Common Data Model](https://www.ohdsi.org/data-standardization/the-common-data-model/) tutorial using a synthetic 1,000 patient records.
 
 In this tutorial, you will learn the basics of OMOP Common Data Model and multiple standardised terminologies (ICD-10, BNF). You will go through the pipeline of mapping structured data to a Common Data Model and have an experience of carrying out phenotype computation.
 
 ## Objectives
-- data model (OMOP)
-- terminology (ICD-10, Drug standards: BNF)
-- phenotype computation
+- common data model (OMOP)
+- clinical terminologies (ICD-10, Drug standards: BNF)
+- phenotype computation (R and SQL)
 - R tutorial
 
 ## Environment setup
