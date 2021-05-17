@@ -54,7 +54,7 @@ In order to get the environment you need for this tutorial, please download and 
 - Make sure Docker is running.
 - Open the Terminal (Command Prompt).
 - Change the working directory to the path holds the files you downloaded. (e.g.`C:/Users/your_account`)
-- Pull the image for Jupyter by run: `docker pull jupyter/data-science` (It might take a while)
+- Pull the image for Jupyter by run: `docker pull jupyter/datascience-notebook` (It might take a while)
 - Pull the image for Postgres by run: `docker pull postgres`
 - Edit the path in file *docker-compose.yml*
 
