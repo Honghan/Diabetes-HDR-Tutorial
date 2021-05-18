@@ -35,6 +35,7 @@ This repository includes
 此文件提供了此课程的总结及背景介绍。*请在开始课程前浏览此文件*
 - **docker-compose.yml** is the docker compose file you need for setting up the environment. Further instructions will be provided below.
 你将需要此docker compose文件来设置课程所需要的环境。下面会提供详细的说明。
+- **Dockerfile** the file used for setting up the environment.
 - **tutorial_data.tar.gz** wrapped up the files you need for the database.
 此压缩包包含了数据库的数据及信息。
 - **notebooks** includes the R scripts of this tutorial.
@@ -67,12 +68,12 @@ In order to get the environment you need for this tutorial, please download and 
 Change the path before the colon to your working directory.
 - Run the compose file by:
 
-`docker-compose -f docker-compose.yml up`
-- Open the browser and open `http://localhost:8899`. Copy the token from the terminal. Then you should be able to open the jupyter notebooks in the folder *notebooks*.
+`docker-compose up -d --build`
+- Open the browser and open `http://localhost:8899`. The token is `tutorial`. Then you should be able to open the jupyter notebooks in the folder *notebooks*.
 Now you should be able to go through the R files by running each code cell. *Please note you need to install the packages before loading them.*
 - To close the containers and remove the network, stop the compose by:
 
-`docker-compose -f docker-compose.yml down`
+`docker-compose down`
 
 ### Optional: don't wanna install those R packages everytime?
 You can save a Docker image after installing the packages by:
