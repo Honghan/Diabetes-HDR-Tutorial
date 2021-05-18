@@ -1,0 +1,25 @@
+version: "3"
+services:
+  jupyter_container:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: jupyter_container
+    environment:
+     - JUPYTER_TOKEN=tutorial
+    ports:
+     - "8899:8888"
+    volumes: 
+     - C:/Users/YOUR_PATH/notebooks:/home/jovyan/work
+
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    restart: always
+    ports:
+     - "5434:5432"
+    environment:
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=tutorial
+    volumes: 
+     - C:/Users/YOUR_PATH/tutorial_data:/var/lib/postgresql/data/
