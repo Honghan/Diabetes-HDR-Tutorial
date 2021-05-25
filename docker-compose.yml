@@ -10,7 +10,7 @@ services:
     ports:
      - "8899:8888"
     volumes: 
-     - C:/Users/YOUR_PATH/notebooks:/home/jovyan/work
+     - C:/Users/YOUR_ACCOUNT/Diabetes-HDR-Tutorial-main/notebooks:/home/jovyan/work
 
   postgres:
     container_name: postgres_container
@@ -22,4 +22,4 @@ services:
      - POSTGRES_USER=postgres
      - POSTGRES_PASSWORD=tutorial
     volumes: 
-     - C:/Users/YOUR_PATH/tutorial_data:/var/lib/postgresql/data/
+     - C:/Users/YOUR_PATH/Diabetes-HDR-Tutorial-main/tutorial_data:/var/lib/postgresql/data/
