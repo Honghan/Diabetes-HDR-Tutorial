@@ -24,9 +24,8 @@ In this tutorial, you will learn the basics of OMOP Common Data Model and multip
 ### Download the zip file from this Github repository
 ### 下载此Github存储库的zip包
 Please download all files from this repository
-![alt text](https://github.com/Honghan/Diabetes-HDR-Tutorial/pics/fig1_download.png)
 
-<img src = "pics/fig1_download.png">
+<img src = "pics/fig1_download.PNG" width = 300>
 
 
 
