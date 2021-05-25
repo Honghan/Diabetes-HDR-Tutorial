@@ -1,5 +1,8 @@
 # Health Data Research Tutorial - a case study in Diabetes
 # 健康数据分析课程 - 关于糖尿病的案例研究
+
+[Read in Chinese](https://github.com/Honghan/Diabetes-HDR-Tutorial/blob/main/README.cn.md)
+
 This repository includes all the materials you need for a hands-on [Common Data Model](https://www.ohdsi.org/data-standardization/the-common-data-model/) tutorial using a synthetic 1,000 patient records.
 
 该存储库包含用于通用数据模型教程的所有材料。在该课程中，我们使用1000个病人的假数据。
