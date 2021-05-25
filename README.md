@@ -61,16 +61,16 @@ In order to get the environment you need for this tutorial, please download and 
 ### 运行docker-compose文件
 - Make sure Docker is running.
 - Open the Terminal (Command Prompt).
-- Change the working directory to the path holds the files you downloaded. (e.g.`C:/Users/your_account`)
+- Change the working directory to the path holds the files you downloaded. (e.g.`cd C:\Users\your_account\Diabetes-HDR-Tutorial-main`)
 - Pull the image for Jupyter by run: `docker pull jupyter/datascience-notebook` (It might take a while)
 - Pull the image for Postgres by run: `docker pull postgres`
 - Edit the path in file *docker-compose.yml*
 
 `    volumes:
-     - /home/${USER}/notebooks:/home/jovyan/work`
+     - C:/Users/your_account/Diabetes-HDR-Tutorial-main/notebooks:/home/jovyan/work`
 
 `    volumes:
-     - /home/${USER}/tutorial_data:/var/lib/postgresql/data/`
+     - C:/Users/your_account/Diabetes-HDR-Tutorial-main/tutorial_data:/var/lib/postgresql/data/`
 
 Change the path before the colon to your working directory.
 - Run the compose file by:
