@@ -27,13 +27,15 @@ Please download all files from this repository
 
 <img src = "pics/fig1_download.PNG" width = 300>
 
+and save (unzip) them to your working directory (e.g. **C:\Users\your_account_name\Diabetes-HDR-Tutorial-main**).
 
+请下载并存储且解压此存储库的所有文件（比如存于C盘用户名下C:\Users\your_account_name\Diabetes-HDR-Tutorial-main）。
 
-and save (unzip) them (e.g. C:\Users\your_account_name).
+Then you will get a folder looks like this:
 
-请下载并存储且解压此存储库的所有文件（比如存于C盘用户名下C:\Users\your_account_name）。
+<img src = "pics/fig2_files.PNG" width = 500>
 
-This repository includes
+This repository includes the files you need for this tutorial
 
 此存储库包含以下文件
 
@@ -57,7 +59,6 @@ In order to get the environment you need for this tutorial, please download and 
 
 ### Run docker-compose file
 ### 运行docker-compose文件
-- Unzip tutorial_data.tar.gz.
 - Make sure Docker is running.
 - Open the Terminal (Command Prompt).
 - Change the working directory to the path holds the files you downloaded. (e.g.`C:/Users/your_account`)
