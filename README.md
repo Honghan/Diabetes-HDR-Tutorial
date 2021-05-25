@@ -85,5 +85,3 @@ You can download *PGAdmin* to have a look of the database from [here](https://ww
 - password: tutorial
 
 Then you should be able to connect to the database we use for this tutorial.
-
-### Optional: Rstudio for R
