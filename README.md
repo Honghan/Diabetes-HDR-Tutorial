@@ -56,7 +56,14 @@ Change the path before the colon to your working directory.
 - Run the compose file by:
 
 `docker-compose up -d --build`
-- Open the browser and open `http://localhost:8899`. The token is `tutorial`. Then you should be able to open the jupyter notebooks in the folder *notebooks*.
+- Open the browser and open `http://localhost:8899`. 
+
+<img src = "pics/fig5_jupyter.PNG" width = 500>
+
+The token is `tutorial`. Then you should be able to open the jupyter notebooks in the folder *notebooks*.
+
+<img src = "pics/fig6_jupyter_files.PNG" width = 600>
+
 Now you should be able to go through the R files by running each code cell. *Please note you need to install the packages before loading them.*
 - To close the containers and remove the network, stop the compose by:
 
