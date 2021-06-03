@@ -35,7 +35,6 @@ This repository includes the files you need for this tutorial
 - **raw_data.zip** includes the raw data (synthetic data) we used for this tutorial.
 
 ### Install Docker
-### 安装Docker
 In order to get the environment you need for this tutorial, please download and install Docker according to your operating system from [here](https://docs.docker.com/get-docker/).
 
 ### Run docker-compose file
